@@ -5,3 +5,13 @@ Pasos para crear un repositorio
 
     git add 
             Añade los archivos sin seguimiento al repositorio de git 
+    
+    git commit -m 'Mensaje Descriptivo'
+            Versionar los cambios añadidos
+
+    COMANDOS GIT:
+
+    git status 
+                Da un status del repositorio 
+                Es como preguntar a tu asesor financiero. Todo está bien?
+                o como anda todo?
