@@ -11,6 +11,9 @@ Pasos para crear un repositorio
 
     COMANDOS GIT:
 
+    gitb branch -M main 
+        Renombrar la rama principal
+    
     git status 
                 Da un status del repositorio 
                 Es como preguntar a tu asesor financiero. Todo está bien?
