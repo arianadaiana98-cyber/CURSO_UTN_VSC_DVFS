@@ -1,0 +1,50 @@
+
+SINTAXIS HTML
+
+etiqueta: 
+        De cierre
+        <nombre-etiqueta> </nombre-etiqueta>
+
+
+        De autocierre
+        <nombre-etiqueta/>
+
+        <nombre-etiqueta>
+
+Elemento:
+    Quien determina la funcionalidad / significado es el Elemento
+    El elemento determina el tipo de etiqueta, solo puede ser un tipo de etiqueta
+    Por ejemplo:
+    h1 (De cierre): significa el título de nuestra página 
+    button (De cierre): significa un botón en la página
+    img (De autoccierre): imagen
+    p (De cierre): un párrafo
+    a (De cierre): hipervínculo
+    ul (De cierre): hacer una lista desordenada
+    ol (De cierre): hacer una lista ordenada
+    li (De cierre): hacer un elemento de la lista 
+    b (De cierre); marcar en negrita
+
+Atributos:
+Cada elemento tiene disponibles una serie de Atributos
+El atributo es una configuración del elemento
+    <caja tamaño='chica' color='rojo' con-puntas='redondeadas'></caja> 
+    Ejemplo real: <a href= 'https://www.mercadolibre.com.ar/'>Ir a MercadoLibre</a>
+
+Anidamiento:
+            La capacidad de que una etiqueta contenga otra etiqueta
+            <padre><hijo><nieto></nieto></hijo></padre>
+
+Buena practica: Indetación 
+
+En vez de trabajar todo en la misma línea 
+<padre>
+      <hijo>
+            <nieto></nieto>
+      </hijo>  
+      <hijo>
+      </hijo>
+</padre>
+
+
+
