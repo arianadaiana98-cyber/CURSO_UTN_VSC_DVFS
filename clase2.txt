@@ -1,0 +1,20 @@
+Pasos para crear un repositorio
+
+    git init
+            Crea un repositorio de git en el proyecto donde se ejecuta
+
+    git add 
+            Añade los archivos sin seguimiento al repositorio de git 
+    
+    git commit -m 'Mensaje Descriptivo'
+            Versionar los cambios añadidos
+
+    COMANDOS GIT:
+
+    gitb branch -M main 
+        Renombrar la rama principal
+    
+    git status 
+                Da un status del repositorio 
+                Es como preguntar a tu asesor financiero. Todo está bien?
+                o como anda todo?

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(foreach \\($p in @\\(\"$env:ProgramFiles\\\\Git\\\\cmd\\\\git.exe\",\"${env:ProgramFiles\\(x86\\)}\\\\Git\\\\cmd\\\\git.exe\",\"$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\cmd\\\\git.exe\"\\)\\) { if \\(Test-Path $p\\) { \"FOUND: $p\" } else { \"missing: $p\" } })"
+    ]
+  }
+}
