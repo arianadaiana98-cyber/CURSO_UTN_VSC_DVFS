@@ -11,10 +11,33 @@ Pasos para crear un repositorio
 
     COMANDOS GIT:
 
-    gitb branch -M main 
+    git branch -M main 
         Renombrar la rama principal
+
     
     git status 
                 Da un status del repositorio 
                 Es como preguntar a tu asesor financiero. Todo está bien?
                 o como anda todo?
+
+        git remote add origin https://github.com/arianadaiana98-cyber/CURSO_UTN_VSC_DVFS.git
+        Añadir una dirección remota (dirección de repositorio remoto) a nuestro repo local.
+
+        git remote -v 
+        Ves a donde esta conectado tu repo local
+
+        git remote set-url origin <dirección del repo> 
+        Cambia la url a la que está conectada el repo local      
+
+        git push -u origin main 
+        Sube los cambios a la nube
+
+        Para actualizar el repo y subir otro commmit ejecutar:
+
+        Git add .
+        Git commit -m 'nombre'
+        Git push
+
+        
+
+
