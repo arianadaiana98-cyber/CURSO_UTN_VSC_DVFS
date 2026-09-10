@@ -1,0 +1,24 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fundamental para que las matemáticas no se rompan */
+}
+
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./footer.css');
+@import url('./cards.css');
+
+body {
+   font-family: 'Helvetica', sans-serif;
+    color: #333333;
+    background-color: #f4f4f4;
+}
+
+.hola {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: start;
+    color: #2b6cb0;
+}
