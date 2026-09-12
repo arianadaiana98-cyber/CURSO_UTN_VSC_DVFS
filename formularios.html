@@ -15,6 +15,7 @@
                     <!-- INPUT: Etiqueta para que el usuario ingrese la información pedida-->
                     <input type="text" id="fullname" name="fullname" required maxlength="50" minlength="3" placeholder="John Doe">
                     <!-- El FOR y el ID tienen que ser iguales-->
+                     <!--El name hay que ponerlo para JS luego-->
                     <!-- El type en el input tiene que ser un tipo de campo existente en HTML-->
                 </div>
             <div>
@@ -24,6 +25,54 @@
             <div>
                     <label for="contraseña">Ingrese su Contraseña:</label>
                     <input type="password" id="contraseña" name="contraseña" placeholder="••••••••"> 
+            </div>
+              <div>
+                    <span>Ingrese el lenguaje de su preferencia</span>
+                        <div>
+                            <label for="HTML">HTML</label>
+                            <input type="radio" id="HTML" name="radio"> 
+                        </div>
+                          <div>
+                            <label for="CSS">CSS</label>
+                            <input type="radio" id="CSS" name="radio"> 
+                        </div>
+                          <div>
+                            <label for="JavaScript">JavaScript</label>
+                            <input type="radio" id="JavaScript" name="radio"> 
+                        </div>
+                    
+                        <div>
+                    <span>Seleccione los lenguajes que ya conoce</span>
+                        <div>
+                            <label for="KNOW_HTML">HTML</label>
+                            <input type="checkbox" id="KNOW_HTML" name="checkbox"> 
+                        </div>
+                          <div>
+                            <label for="KNOW_CSS">CSS</label>
+                            <input type="checkbox" id="KNOW_CSS" name="checkbox"> 
+                        </div>
+                          <div>
+                            <label for="KNOW_JavaScript">JavaScript</label>
+                            <input type="checkbox" id="KNOW_JavaScript" name="checkbox"> 
+                        </div>
+
+                        <!--Select: combo de opciones-->
+                        <div>
+                            <label for="pais">Elige tu país de origen:</label>
+                            <select id="pais" name="pais">
+                                <option value="AR">Argentina</option>
+                                <option value="BR">Brasil</option>
+                                <option value="CH">Chile</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="NN" selected disabled>Seleccionar</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="comentario">Ingrese un comentario:</label>
+                            <textarea id="comentario" name="comentario" rows="10" cols="10" placeholder="Escriba su comentario aquí...">
+                            </textarea>
+                        <!--Rows es cantidad de caracteres por fila y cols es cantidad de caracteres por columna-->
+                        </div>
             </div>
 
             <div>
