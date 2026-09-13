@@ -1,0 +1,17 @@
+/*  CSS Funciona por medio de los selectores
+ Los selectores nos permiten apuntar estilos a ciertos elementos de HTML.
+ */
+
+ /* Selector de Elemento */
+ h1 { 
+    
+    /* Propiedades: Nos sirven para
+    modificar el aspecto de los elementos
+    -color: modifica el color del texto
+    -background-color: modifica el color de fondo
+    */
+   
+    color: red;
+    background-color: yellow;
+    
+ }
