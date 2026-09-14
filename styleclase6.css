@@ -11,7 +11,27 @@
     -background-color: modifica el color de fondo
     */
    
-    color: red;
-    background-color: yellow;
-    
+    color: white;
+    background-color: grey;
+
  }
+
+ /* Selector de clase*/ 
+
+ .titulo-principal {
+
+    color: blueviolet
+
+ }
+
+ /* Especificidad: Cuando un elemento tiene varias 
+ clases, el estilo que se aplicará será el de la 
+ clase que tenga mayor especificidad, osea que su
+ instrucción es más específica.
+ 
+ + especifico
+
+ selector de clase
+ selector de elemento
+ 
+ - especifico*/
