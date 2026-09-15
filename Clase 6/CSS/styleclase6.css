@@ -1,9 +1,16 @@
 /*  CSS Funciona por medio de los selectores
  Los selectores nos permiten apuntar estilos a ciertos elementos de HTML.
  */
+ /*Selector universal: Aplica estilos a todos los elementos de HTML*/
 
+ * {
+    margin: 5;
+    padding: 5;
+   box-sizing: border-box;
+    font-family: sans-serif;
+ }
  /* Selector de Elemento */
- h1 { 
+ h1 {    
     
     /* Propiedades: Nos sirven para
     modificar el aspecto de los elementos
@@ -18,11 +25,34 @@
 
  /* Selector de clase*/ 
 
+ .titulo-subrayado {
+   
+    text-decoration: underline blue 1px;
+    color:blueviolet;
+ }
+
  .titulo-principal {
 
     color: blueviolet
 
  }
+
+ /* Botton es la clase principal del boton y btn-primary es la clase secundaria que le da un estilo diferente al boton*/
+
+ .btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+ .btn-primary {
+    background-color: pink
+    ;
+ }
+
+ 
 
  /* Especificidad: Cuando un elemento tiene varias 
  clases, el estilo que se aplicará será el de la 
