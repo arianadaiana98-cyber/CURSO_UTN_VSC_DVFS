@@ -1,0 +1,26 @@
+/* Propiedades de texto */
+
+/* Ordena al navegador descargar un recurso de CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Helvetica;
+}
+h1 {
+    color: #bf5454; /*Color de letra*/
+    background-color: #adbf54; /*Color de fondo*/
+    font-size: 48px; /*Tamaño de letra*/
+    font-family: 'Montserrat', Helvetica; /*Fuente de letra*/
+    font-weight: 800; /*Grosor de letra*/
+    text-align: center; /*Alineación de letra*/
+    letter-spacing: 10px; /*Espaciado entre letras*/
+    text-decoration: underline solid rebeccapurple; /*Decoración de letra*/
+}
+
+p {
+    text-align: justify; /*Alineación de letra*/
+    font-weight: 500; /*Grosor de letra*/
+    line-height: 15px; /*Altura de línea*/
+    word-spacing: 10px; /*Espaciado entre palabras*/
+}
