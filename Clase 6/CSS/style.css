@@ -5,7 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
+    /* Normalizar el CSS*/
     font-family: Helvetica;
+    box-sizing: border-box; /*El ancho y alto se aplican a la caja de borde*/
+    margin: 0;
+    padding: 0;
+
 }
 h1 {
     color: #bf5454; /*Color de letra*/
@@ -16,6 +21,19 @@ h1 {
     text-align: center; /*Alineación de letra*/
     letter-spacing: 10px; /*Espaciado entre letras*/
     text-decoration: underline solid rebeccapurple; /*Decoración de letra*/
+    text-shadow: 2px 2px 5px black; /*Sombra de letra*/
+    padding-left:0px; /*Espaciado interno izquierdo*/
+    padding-right:0px; /*Espaciado interno derecho*/
+    border: 5px solid #bf5454; /*Borde de caja*/
+    margin-left: 40px; /*Espaciado externo*/
+    width: 800px; /*Ancho de content box*/
+    height: 100px; /*Alto de content box*/
+
+    /* El width y height se aplican solo al content box, el cual es la parte que contiene el contenido del elemento. */
+
+/* Determina a qué caja va a modificar la propiedad width
+y height. Hay dos opciones content-box y border-box. */
+
 }
 
 p {
@@ -23,4 +41,14 @@ p {
     font-weight: 500; /*Grosor de letra*/
     line-height: 15px; /*Altura de línea*/
     word-spacing: 10px; /*Espaciado entre palabras*/
+    text-shadow: 1px 1px 3px gray; /*Sombra de letra*/
+    font-style: italic; /*Estilo de letra*/
 }
+
+/* Propiedades de caja BOX MODELING */
+
+/* Cada elemento se compone de 4 partes: 
+margin box
+border box
+padding box
+content box. */
