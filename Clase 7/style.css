@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Toda propiedad tiene un valor por defecto.*/
+
+.padre{
+    /* 1vw = 1% del ancho de la ventana del navegador */
+        width: 100vw; /* Viewport (ancho) 100% del ancho de la ventana del navegador */
+        height: 100vh; /* Viewport (alto) 100% del alto de la ventana del navegador */
+        background-color: pink;
+
+        /*Flexbox es una herramienta de CSS que permite distribuir el espacio entre los elementos de una interfaz y mejorar la alineación de los mismos.
+        Permite acomodar a los hijos
+        Se basa en un padre ordenando a sus hijos */
+
+        display: flex; /* Se activa el modelo de caja flexible */
+        
+        /* flex-direction maneja la dirección de la flexbox, puede ser:
+            row: (uno al lado del otro)
+            column: (uno encima del otro) */
+
+        flex-direction: row ;
+        justify-content: center; /* Alinea a los hijos en el eje principal (x)*/;
+        align-items: center; /* Alinea a los hijos en el eje secundario (y)*/;
+        gap: 10px; /* Espacio entre los hijos */
+
+        /* Puede ser center, start, end, space-between, space-around, space-evenly */
+    }
+
+.hijo{
+        width: 50px;
+        height: 70px;
+        background-color: yellow;
+}
+
+.hijo-1{
+        background-color: aquamarine;
+}
+
+.hijo-2{
+        background-color:cadetblue;
+}
+
+.hijo-3{
+        background-color:burlywood;
+}

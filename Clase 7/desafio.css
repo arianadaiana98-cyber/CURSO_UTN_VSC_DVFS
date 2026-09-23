@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif; 
+}
+
+main{
+    display: flex;
+    justify-content: right;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 32px;
+    text-align: left;
+}
+
+.divisor{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+nav ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 3px solid #C3C7CB;
+    padding: 15px;
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}

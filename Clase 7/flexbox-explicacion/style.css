@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css);
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Manrope", sans-serif;
+        }
+
+.menu-button{
+        display:none;
+}
+
+
+header{
+        background-color: #1C1F25;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        justify-content: space-between;
+        gap: 40px; 
+
+}
+
+.logo path{
+        fill: white;
+}
+
+.logo-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.login{
+        display: flex;
+        align-items: center;
+
+}
+
+nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 500;
+}
+
+.tarjeta{
+        background-color: #222733;
+        border: solid #333843;
+        padding: 20px;
+        border-radius: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-decoration: none;
+        color: white;
+}
+
+/* mediaqueries
+
+Son condiciones sobre el alto o ancho del viewport
+        A partir de 1200 px quiero:
+        que este div desaparezca
+        que aparezca este boton
+        que cambien cierto tmñn de fuente
+        que cambie la dirección de la flexbox
+*/
+
+/* Cuando nuestra pantalla mida 1200 px o menos se ejecuta este bloque de código */
+
+@media screen and (max-width: 1280px){
+
+        /* propiedades flex-child son propiedades de css para los hijos de una flexbox, ejemplo:
+        order
+        flex grow
+        flex basis 
+        flex 
+
+        .login{
+                order: 1;
+        }
+        
+        nav{
+                order: 2;
+        }
+
+        .logo-container{
+                order: 3;
+        } */
+
+        header {
+                justify-content: start;
+        }
+
+        header nav {
+                flex:1;
+        }
+}
+
+
+@media screen and (max-width: 1025px){
+        header nav{
+                display: none; /*  no se renderiza (dibuja) en la pantalla
+                visibility: hidden; oculta visualment pero se renderiza la caja
+                opacity: 0; propiedad que vale de 0 a 1, 0 invisible y 1 visible*/
+        }
+        header{
+                justify-content: space-between;
+        
+        .menu-button{
+                display: inline-block;
+                background-color: transparent;
+                color: white;
+                border-color: transparent;
+                font-size: 24px;
+        }
+        .login{
+                gap: 7px;
+                display: flex;
+
+        }
+        }
+}
+
+/* buscar breakpoints responsive*/
+
+@media screen and (max-width: 900px){
+        body{
+                background-color: blueviolet;
+        }
+        header{
+                justify-content: space-between;
+        }
+}

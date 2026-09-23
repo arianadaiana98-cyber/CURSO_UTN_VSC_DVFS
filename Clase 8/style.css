@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    background-color: blue;
+}
+
+div{
+    background-color: brown;
+}
+
+button{
+    background-color: pink ;
+}
+
+section{
+    display: flex;
+    height: 200px;
+    background-color: aliceblue;
+    gap: 10px;
+}
+
+/* Cuando el padre el flex los hijos se comportan como inlineblock */
+
+section article{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+
+section a{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}

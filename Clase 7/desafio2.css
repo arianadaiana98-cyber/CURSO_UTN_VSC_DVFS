@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: #f5f5f6;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 1166.8px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 24px 24px 32px
+}
+
+.descuento{
+    font-size: 12px;
+    display: flex;
+    align-self: flex-end;
+    color: #673DE6; 
+    background-color: #F1EFFF;
+    height: 20px;
+    width: 60px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.single{
+    font-size: 18px;
+    font-weight: 360;
+    margin-bottom: 8px;
+    color: #222225;
+}
+
+.title{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: #222225
+}
+
+.ex-price{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-top: 8px;
+    color: #000000BF
+}
+
+.new-price{
+    font-size: 32px;
+    color: #222225;
+    font-weight: 600;
+}
+
+.dec{
+    font-size: 16px;
+}
+
+.chooseplan{
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px #673DE6; 
+    color: #673DE6;
+    margin: 24px 0px 0px;
+    padding: 12px 48px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+.promo{
+    font-size: 16px;
+    margin: 16px 0px 24px;
+    color: #797980;
+}
+
